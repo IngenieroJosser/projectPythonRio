@@ -1,0 +1,24 @@
+@import '../base/base';
+@import '../config/config';
+
+footer {
+    $backgroun-form: rgba(0, 0, 0, 0.3);
+    margin-top: 3.5em;
+    padding: 2em 0px 0px 0px;
+    width: 100%;
+
+    span {
+        color: $netflix-white;
+        display: flex;
+        margin-left: 10em;
+
+        p {
+            margin-left: 4px;
+
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

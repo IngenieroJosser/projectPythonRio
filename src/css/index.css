@@ -1,0 +1,157 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+svg {
+  width: 10.4em;
+  height: 10.4em;
+  margin-top: -2.3em;
+  margin-left: 2.5em;
+  object-fit: cover;
+}
+
+body {
+  background-image: url("../../assets/img/Background-Login.jpg");
+  background-repeat: none;
+}
+
+form {
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 30em;
+  padding: 4em 2.3em;
+  margin-left: 26em;
+  padding-bottom: 9em;
+}
+form h1 {
+  color: #FFFFFF;
+  margin-left: 1em;
+  margin-top: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+form #input {
+  padding: 1em 7em;
+  opacity: 0.5;
+  border: none;
+  background-color: #C3C3C3;
+  border-radius: 4px;
+  margin-left: 2.4em;
+  margin-top: 2em;
+}
+form #input:focus {
+  background-color: #C3C3C3;
+  border: none;
+}
+form #submit {
+  margin-top: 2.2em;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 0.8em 7.4em;
+  opacity: 0.5;
+  border-radius: 4px;
+  margin-left: 2.4em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+form #submit:hover {
+  background-color: #d20c0c;
+}
+
+.RememberMe {
+  display: flex;
+  color: #C3C3C3;
+  border: none;
+  margin-left: 2.5em;
+  margin-top: 1em;
+}
+.RememberMe #remember {
+  margin-left: 7px;
+}
+.RememberMe span {
+  font-size: 13px;
+}
+.RememberMe .help {
+  margin-left: 6.4em;
+}
+.RememberMe .help:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.firstTime {
+  display: flex;
+  gap: 1.2em;
+  margin-top: 1em;
+  margin-left: 3.3em;
+}
+.firstTime span, .firstTime p {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.firstTime span {
+  font-size: 16px;
+  color: #737373;
+}
+.firstTime p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.reCAPTCHA {
+  color: #6c8c7b;
+  font-size: 12px;
+  margin-top: 2em;
+  width: 25em;
+  margin-left: 4em;
+}
+.reCAPTCHA a {
+  color: #0352EB;
+}
+.reCAPTCHA a:hover {
+  text-decoration: underline;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border: none;
+}
+
+footer {
+  margin-top: 3.5em;
+  padding: 2em 0px 0px 0px;
+  width: 100%;
+}
+footer span {
+  color: #FFFFFF;
+  display: flex;
+  margin-left: 10em;
+}
+footer span p {
+  margin-left: 4px;
+}
+footer span p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
