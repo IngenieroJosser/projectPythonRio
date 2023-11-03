@@ -1,8 +1,15 @@
 @import './base/base';
 @import './config/config';
-@import './log/RegisterHere';
-@import './log/Footer';
+
+
 
 // RESPONSIVE
 @import './responsive/Movil';
 @import './responsive/Tablet';
+
+
+
+// COMPONENTS
+@import './log/RegisterHere';
+@import './log/Footer';
+@import './registry/HeaderLog';

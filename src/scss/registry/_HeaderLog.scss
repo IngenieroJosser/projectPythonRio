@@ -1,0 +1,22 @@
+@import '../config/config';
+
+.log_in {
+    display: flex;
+    border-bottom: 1px solid #E6E6E6;
+    height: 90px;
+
+    a {
+        &svg {
+            padding-left: 1em;
+        }
+    }
+
+    .start {
+        padding-left: 50em;
+        font-weight: bold;
+        color: $color-text1;
+        font-size: 19px;
+        font-weight: bold;
+        line-height: 90px;
+    }
+}
