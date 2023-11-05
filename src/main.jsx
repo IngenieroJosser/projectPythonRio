@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client'
 // import Content from './components/registry/Content';
 // import Signup from './components/registry/Signup';
 // import PaymentPicker from './components/registry/PaymentPicker';
+import MainSection from './components/mainSection/MainSection'
 
 import './scss/index.scss';
 
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Content /> */}
     {/* <Signup /> */}
     {/* <PaymentPicker /> */}
+    <MainSection />
   </React.StrictMode>,
 )
