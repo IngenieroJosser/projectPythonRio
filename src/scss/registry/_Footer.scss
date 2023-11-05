@@ -1,0 +1,44 @@
+@import '../config/config';
+
+footer {
+    background-color: $footer-suscribe;
+    width: 199.3vh;
+    height: 33vh;
+
+    p {
+        padding-left: 6em;
+    }
+
+    p, a {
+        color: $footer-text-suscribe;
+
+        a {
+            transition: 5s all ease-in;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .flex {
+        display: flex;
+        gap: 10em;
+        margin-top: 1.5em;
+        margin-left: 6em;
+
+        a {
+            display: flex;
+            font-size: 13px;
+        }
+    }
+
+    select {
+        padding: .6em 2em;
+        font-size: 1em;
+        margin-left: 6.5em;
+        margin-top: 1em;
+        border: 1px solid $footer-text-suscribe;
+        border-radius: 2px;
+    }
+}

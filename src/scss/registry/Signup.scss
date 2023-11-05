@@ -1,0 +1,59 @@
+@import '../config/config';
+
+.banner-Sigup {
+    width: 70%; /* Ancho deseado para el div */
+    text-align: center; /* Alinea el contenido del div al centro */
+    padding: 3em 0px; /* Espaciado interior opcional */
+
+    img {
+        margin-top: 3.3em;
+        margin-left: 22.6em;
+        padding-bottom: 1.2em;
+    }
+    
+    span {
+        font-size: 13px;
+        margin-left: -6.4em;
+    }
+
+    h1 {
+        margin-left: 10.7em;
+    }
+}
+
+.banner-content {
+    margin-top: -2em;
+    padding-bottom: 2em;
+
+    img {
+        object-fit: contain;
+    }
+
+    .text {
+        display: flex;
+        padding-bottom: 1em;
+        margin-left: 30em;
+
+        p {
+            padding-bottom: 7px;
+            font-size: 1.2em;
+            width: 14em;
+            padding-left: 1em;
+        }
+    }
+}
+
+.next {
+    padding: .6em 5.3em;
+    background-color: $color-button;
+    color: $color-text2;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 4px;
+    margin-left: 19em;
+    margin-top: 2em;
+
+    &:hover {
+        background-color: $hover-button;
+    }
+}    

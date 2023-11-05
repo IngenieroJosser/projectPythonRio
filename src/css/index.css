@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   border: none;
 }
@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   border: none;
 }
@@ -41,7 +41,7 @@ form h1 {
   color: #FFFFFF;
   margin-left: 1em;
   margin-top: 14px;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
 form #input {
@@ -131,7 +131,7 @@ form #submit:hover {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   border: none;
 }
@@ -165,10 +165,46 @@ footer span p:hover {
 .log_in .start {
   padding-left: 50em;
   font-weight: bold;
-  color: #000;
+  color: #333333;
   font-size: 19px;
   font-weight: bold;
   line-height: 90px;
+}
+
+footer {
+  background-color: #F3F3F3;
+  width: 199.3vh;
+  height: 33vh;
+}
+footer p {
+  padding-left: 6em;
+}
+footer p, footer a {
+  color: #737373;
+}
+footer p a, footer a a {
+  transition: 5s all ease-in;
+}
+footer p a:hover, footer a a:hover {
+  text-decoration: underline;
+}
+footer .flex {
+  display: flex;
+  gap: 10em;
+  margin-top: 1.5em;
+  margin-left: 6em;
+}
+footer .flex a {
+  display: flex;
+  font-size: 13px;
+}
+footer select {
+  padding: 0.6em 2em;
+  font-size: 1em;
+  margin-left: 6.5em;
+  margin-top: 1em;
+  border: 1px solid #737373;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=index.css.map */
