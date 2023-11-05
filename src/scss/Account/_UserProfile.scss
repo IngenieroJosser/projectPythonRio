@@ -1,0 +1,86 @@
+@import '../config/config';
+
+section {
+    background-color: $backgroun-User;
+    box-shadow: 0px 36px 65px 4px #121212bf inset;
+    width: 100vw;
+    height: 100vh;
+
+    .list-Profile {
+        width: 100%; /* Ancho deseado para el div */
+        text-align: center; /* Alinea el contenido del div al centro */
+        padding: 3em 0px; /* Espaciado interior opcional */ 
+        padding-top: 9em;
+
+        h1 {
+            font-size: 46px;
+            line-height: 55px;
+            color: $color-text2;
+        }
+    }
+
+    .Accounts {
+        display: flex;
+        gap: 1.7em;
+        margin-left: 16em;
+        margin-top: 2em;
+
+        .user {
+            a {            
+                img {
+                    color: #fff;
+                    object-fit: cover;
+                    width: 8.8em;
+                    height: 8.8em;
+                    border-radius: 7px;
+                    transition: 2s all ease-in-out;
+    
+                    &:hover {
+                        border: 1.2px solid #fff;
+                    }
+                }
+            }
+        }
+
+        span {
+            position: absolute;
+            color: $text-Account;
+            line-height: 21px;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 9em;
+            margin-left: -5.5em;
+            cursor: pointer;
+        }
+
+        
+        svg {
+            position: absolute;
+            margin-top: 12em;
+            margin-left: -5.2em;
+            height: 20px;
+            width: 20px; 
+        }
+
+        .dev {
+            position: absolute;
+            color: $text-Account;
+            line-height: 21px;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 9em;
+            margin-left: -6.6em;
+            cursor: pointer;
+        }
+    }
+
+    .Admin-Perfile {
+        position: absolute;
+        border: 1px solid $text-Account;
+        padding: 7px 21px;
+        color: $text-Account;
+        margin-left: 35.5em;
+        font-weight: bold;
+        margin-top: 4.1em;
+    }
+}

@@ -473,4 +473,75 @@ footer {
   color: red;
 }
 
+section {
+  background-color: #141414;
+  box-shadow: 0px 36px 65px 4px rgba(18, 18, 18, 0.7490196078) inset;
+  width: 100vw;
+  height: 100vh;
+}
+section .list-Profile {
+  width: 100%; /* Ancho deseado para el div */
+  text-align: center; /* Alinea el contenido del div al centro */
+  padding: 3em 0px; /* Espaciado interior opcional */
+  padding-top: 9em;
+}
+section .list-Profile h1 {
+  font-size: 46px;
+  line-height: 55px;
+  color: #fff;
+}
+section .Accounts {
+  display: flex;
+  gap: 1.7em;
+  margin-left: 16em;
+  margin-top: 2em;
+}
+section .Accounts .user a img {
+  color: #fff;
+  object-fit: cover;
+  width: 8.8em;
+  height: 8.8em;
+  border-radius: 7px;
+  transition: 2s all ease-in-out;
+}
+section .Accounts .user a img:hover {
+  border: 1.2px solid #fff;
+}
+section .Accounts span {
+  position: absolute;
+  color: #515151;
+  line-height: 21px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 9em;
+  margin-left: -5.5em;
+  cursor: pointer;
+}
+section .Accounts svg {
+  position: absolute;
+  margin-top: 12em;
+  margin-left: -5.2em;
+  height: 20px;
+  width: 20px;
+}
+section .Accounts .dev {
+  position: absolute;
+  color: #515151;
+  line-height: 21px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 9em;
+  margin-left: -6.6em;
+  cursor: pointer;
+}
+section .Admin-Perfile {
+  position: absolute;
+  border: 1px solid #515151;
+  padding: 7px 21px;
+  color: #515151;
+  margin-left: 35.5em;
+  font-weight: bold;
+  margin-top: 4.1em;
+}
+
 /*# sourceMappingURL=index.css.map */
