@@ -6,22 +6,31 @@ const Footer = () => {
     return (
         <>
             <footer>
-                    <p>¿Preguntas? Llama al <a href="#">01 800 917 1564</a></p>
+                    <p className='preguntas'>¿Preguntas? Llama al <a className='more' href="#">01 800 917 1564</a></p>
 
                     <div className="flex">
-                        <a>Preguntas frecuentes</a>
-                        <a>Centro de ayuda</a>
-                        <a>Tienda de Netflix</a>
-                        <a>Términos de uso</a>
+                        <a className='more'>Preguntas frecuentes</a>
+                        <a className='more'>Centro de ayuda</a>
+                        <a className='more'>Tienda de Netflix</a>
+                        <a className='more'>Términos de uso</a>
                     </div>
 
-                    <div className="flex">
-                        <a>Privacidad</a>
-                        <a>Preferencias de cookies</a>
-                        <a>Información corporativa</a>
+                    <div className="flex2">
+                        <a className='more'>Privacidad</a>
+                        <a className='more'>Preferencias de cookies</a>
+                        <a className='more'>Información corporativa</a>
                     </div>
 
-                    <select data-uia="language-picker" name="__langSelect" tabindex="0"> <img src={global} alt="global" /> <option selected="" label="Español" lang="es" value="/signup/registration?locale=es-CO">Español</option><option label="English" lang="en" value="/signup/registration?locale=en-CO">English</option></select>
+                    <select>
+                        <option selected="Ingles" label="Español" lang="es" value="/signup/registration?locale=es-CO">
+                            Español
+                        </option>
+
+                        <option label="English" lang="en" value="/signup/registration?locale=en-CO">
+                            English
+                        </option>
+                    </select>
+                    
                 </footer>
         </>
     )

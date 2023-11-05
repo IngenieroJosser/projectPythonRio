@@ -174,33 +174,33 @@ footer span p:hover {
 footer {
   background-color: #F3F3F3;
   width: 199.3vh;
-  height: 33vh;
+  height: 52vh;
 }
-footer p {
+footer .preguntas {
   padding-left: 6em;
+  font-size: 13px;
 }
-footer p, footer a {
+footer .preguntas, footer .more {
   color: #737373;
 }
-footer p a, footer a a {
+footer .preguntas .more, footer .more .more {
   transition: 5s all ease-in;
 }
-footer p a:hover, footer a a:hover {
+footer .preguntas .more:hover, footer .more .more:hover {
   text-decoration: underline;
 }
-footer .flex {
+footer .flex, footer .flex2 {
   display: flex;
-  gap: 10em;
-  margin-top: 1.5em;
-  margin-left: 6em;
+  gap: 1em;
+  margin-top: 1em;
+  margin-left: 1.7em;
 }
-footer .flex a {
-  display: flex;
+footer .flex .more, footer .flex2 .more {
   font-size: 13px;
 }
 footer select {
-  padding: 0.6em 2em;
-  font-size: 1em;
+  padding: 12px 30px;
+  font-size: 20px;
   margin-left: 6.5em;
   margin-top: 1em;
   border: 1px solid #737373;
@@ -228,6 +228,7 @@ footer select {
 .banner-content {
   margin-top: -2em;
   padding-bottom: 2em;
+  margin-left: -32em;
 }
 .banner-content img {
   object-fit: contain;

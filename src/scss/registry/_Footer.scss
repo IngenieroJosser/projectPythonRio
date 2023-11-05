@@ -3,16 +3,17 @@
 footer {
     background-color: $footer-suscribe;
     width: 199.3vh;
-    height: 33vh;
+    height: 52vh;
 
-    p {
+    .preguntas {
         padding-left: 6em;
+        font-size: 13px;
     }
 
-    p, a {
+    .preguntas, .more {
         color: $footer-text-suscribe;
 
-        a {
+        .more {
             transition: 5s all ease-in;
 
             &:hover {
@@ -21,21 +22,20 @@ footer {
         }
     }
 
-    .flex {
+    .flex, .flex2 {
         display: flex;
-        gap: 10em;
-        margin-top: 1.5em;
-        margin-left: 6em;
+        gap: 1em;
+        margin-top: 1em;
+        margin-left: 1.7em;
 
-        a {
-            display: flex;
+        .more {
             font-size: 13px;
         }
     }
 
     select {
-        padding: .6em 2em;
-        font-size: 1em;
+        padding: 12px 30px;
+        font-size: 20px;
         margin-left: 6.5em;
         margin-top: 1em;
         border: 1px solid $footer-text-suscribe;
