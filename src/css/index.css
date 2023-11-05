@@ -540,8 +540,11 @@ section .Admin-Perfile {
   padding: 7px 21px;
   color: #515151;
   margin-left: 35.5em;
-  font-weight: bold;
   margin-top: 4.1em;
+}
+section .Admin-Perfile:hover {
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 /*# sourceMappingURL=index.css.map */
