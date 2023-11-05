@@ -4,7 +4,7 @@ const MainFooter = () => {
   return (
     <>
     <footer>
-        FALTA EL FOOTER Y EL RESPONSIVE
+        FALTA EL FOOTER Y EL RESPONSIVE.
     </footer>
     </>
   )
