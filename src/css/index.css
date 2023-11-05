@@ -496,6 +496,9 @@ section .Accounts {
   margin-left: 16em;
   margin-top: 2em;
 }
+section .Accounts .user {
+  cursor: pointer;
+}
 section .Accounts .user a img {
   color: #fff;
   object-fit: cover;
