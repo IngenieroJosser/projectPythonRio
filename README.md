@@ -1,7 +1,5 @@
 # React + Vite
 
-# React + Vite
-
 This is a project in which a Netflix clone was created, including APIs, databases, and more, using VITE + REACTjs.
 
 Este es un proyecto en el cual se realizó el clon de Netflix con incluyendo API's, Base de datos y de más, VITE + REACTJs.
