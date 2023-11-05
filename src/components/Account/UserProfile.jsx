@@ -7,7 +7,6 @@ import AccountLucas from '../../assets/img/AccountLucas.jpg'
 import devAccount from '../../assets/img/devAccount.png'
 import kidsAccount from '../../assets/img/kids.jpg'
 import wolfAccount from '../../assets/img/wolfAccount.jpg'
-// import candadoAccount from '../../assets/img/candadoAccount.png'
 
 const UserProfile = () => {
     return (
