@@ -1,6 +1,3 @@
-import React from 'react'
-import '../../scss/log/_RegisterHere.scss'
-
 const RegisterHere = () => {
     return (
         <>
@@ -10,8 +7,8 @@ const RegisterHere = () => {
 
             <form action="">
                 <h1>Iniciar sesión</h1>
-                <input id='input' type="text" name="nombre" placeholder="Email o número de teléfono   " required />
-                <input id='input' type="password" name="nombre" placeholder="          Contraseña" required />
+                <input id='input' type="text" name="nombre" placeholder="Email o número de teléfono" required />
+                <input id='input' type="password" name="nombre" placeholder="Contraseña" required />
                 <input id='submit' type="submit" value="Iniciar sesión" />
                 
                 <div className="RememberMe">
