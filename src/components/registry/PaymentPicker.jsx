@@ -22,9 +22,9 @@ const PaymentPicker = () => {
                 <a className='start' href="#">Cerrar sesión</a>
             </header>
 
-            <img src={candado} alt="candado" />
+            <img className='candado' src={candado} alt="candado" />
 
-            <span>PASO <strong>3</strong> DE <strong>3</strong></span>
+            <span className='step'>PASO <strong>3</strong> DE <strong>3</strong></span>
 
             <h1>Elige cómo quieres pagar</h1>
 
@@ -38,11 +38,11 @@ const PaymentPicker = () => {
                     <p>Tarjeta de crédito o debito</p>
 
                     <div className="iconsEnterprise">
-                        <img src={visa} alt="visa" />
-                        <img src={mastercard} alt="mastercard" />
-                        <img src={amex} alt="amex" />
-                        <img src={diners} alt="diners" />
-                        <img src={flecha} alt="" />
+                        <img className='pay' src={visa} alt="visa" />
+                        <img className='pay' src={mastercard} alt="mastercard" />
+                        <img className='pay' src={amex} alt="amex" />
+                        <img className='pay' src={diners} alt="diners" />
+                        <img className='pay' src={flecha} alt="" />
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const PaymentPicker = () => {
                     <p>Efecty</p>
 
                     <div className="iconsEnterprise">
-                        <img src={efecty} alt="efecty" />
+                        <img className='pay' src={efecty} alt="efecty" />
                         <img src={flecha} className='arrow2' alt="arrow" />
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const PaymentPicker = () => {
                     <p>Código de Netflix</p>
 
                     <div className="iconsEnterprise">
-                        <img src={gift} alt="gift code" />
+                        <img className='pay' src={gift} alt="gift code" />
                         <img src={flecha} className='arrow3' alt="" />
                     </div>
                 </div>

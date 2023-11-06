@@ -16,20 +16,21 @@
   border: none;
 }
 
-svg {
+.MainLogin {
+  background-image: url("/src/assets/img/Background-Login.jpg");
+  background-repeat: none;
+  background-size: contain;
+  width: 98.8vw;
+  height: 115vh;
+}
+.MainLogin svg {
   width: 10.4em;
   height: 10.4em;
   margin-top: -2.3em;
   margin-left: 2.5em;
   object-fit: cover;
 }
-
-body {
-  background-image: url("../../assets/img/Background-Login.jpg");
-  background-repeat: none;
-}
-
-form {
+.MainLogin form {
   border-radius: 7px;
   background-color: rgba(0, 0, 0, 0.9);
   width: 30em;
@@ -37,14 +38,14 @@ form {
   margin-left: 26em;
   padding-bottom: 9em;
 }
-form h1 {
+.MainLogin form h1 {
   color: #FFFFFF;
   margin-left: 1em;
   margin-top: 14px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
-form #input {
+.MainLogin form #input {
   padding: 1em 7em;
   opacity: 0.5;
   border: none;
@@ -53,11 +54,11 @@ form #input {
   margin-left: 2.4em;
   margin-top: 2em;
 }
-form #input:focus {
+.MainLogin form #input:focus {
   background-color: #C3C3C3;
   border: none;
 }
-form #submit {
+.MainLogin form #submit {
   margin-top: 2.2em;
   background-color: #FF0000;
   color: #FFFFFF;
@@ -69,89 +70,59 @@ form #submit {
   margin-top: 2em;
   cursor: pointer;
 }
-form #submit:hover {
+.MainLogin form #submit:hover {
   background-color: #d20c0c;
 }
-
-.RememberMe {
+.MainLogin .RememberMe {
   display: flex;
   color: #C3C3C3;
   border: none;
   margin-left: 2.5em;
   margin-top: 1em;
 }
-.RememberMe #remember {
+.MainLogin .RememberMe #remember {
   margin-left: 7px;
 }
-.RememberMe span {
+.MainLogin .RememberMe span {
   font-size: 13px;
 }
-.RememberMe .help {
+.MainLogin .RememberMe .help {
   margin-left: 6.4em;
 }
-.RememberMe .help:hover {
+.MainLogin .RememberMe .help:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
-.firstTime {
+.MainLogin .firstTime {
   display: flex;
   gap: 1.2em;
   margin-top: 1em;
   margin-left: 3.3em;
 }
-.firstTime span, .firstTime p {
+.MainLogin .firstTime span, .MainLogin .firstTime p {
   color: #FFFFFF;
   font-size: 15px;
 }
-.firstTime span {
+.MainLogin .firstTime span {
   font-size: 16px;
   color: #737373;
 }
-.firstTime p:hover {
+.MainLogin .firstTime p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
-.reCAPTCHA {
+.MainLogin .reCAPTCHA {
   color: #6c8c7b;
   font-size: 12px;
   margin-top: 2em;
   width: 25em;
   margin-left: 4em;
 }
-.reCAPTCHA a {
+.MainLogin .reCAPTCHA a {
   color: #0352EB;
 }
-.reCAPTCHA a:hover {
+.MainLogin .reCAPTCHA a:hover {
   text-decoration: underline;
-}
-
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-  text-decoration: none;
-  border: none;
-}
-
-footer {
-  margin-top: 3.5em;
-  padding: 2em 0px 0px 0px;
-  width: 100%;
-}
-footer span {
-  color: #FFFFFF;
-  display: flex;
-  margin-left: 10em;
-}
-footer span p {
-  margin-left: 4px;
-}
-footer span p:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .log_in {
