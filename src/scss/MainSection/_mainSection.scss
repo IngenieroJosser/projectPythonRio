@@ -210,7 +210,28 @@
     display: block;
 }
 
-footer {
-    font-size: 3.1rem;
-    color: red;
+.MainFooter {
+    border-top: 3px solid #2D2D2D;
+    margin-top: 0;
+    padding: 4rem 10rem;
+    width: 100%;
+    height: auto;
+    color: #CCC;
+    background-color: #000;
+}
+
+.main-footer-container {
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    & .footer-item {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        & a {
+            color: #9c9c9c;
+            text-decoration: underline;
+        }
+    }
 }
