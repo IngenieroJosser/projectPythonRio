@@ -4,6 +4,7 @@ const QuestionsSection = () => {
   return (
     <>
         <div className="questions-container">
+            <h1 className="Question-title">Preguntas frecuentes</h1>
             <div className="question-content">
                 <Question 
                     title="¿Qué es Netflix?"

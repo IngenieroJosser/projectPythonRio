@@ -11,6 +11,7 @@ const MainBanner = () => {
                     <button className='Primary-button extralarge'>Comenzar</button>
                 </div>
             </div>
+            <span className="back-black"></span>
         </div>
     </>
   )
