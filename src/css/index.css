@@ -339,6 +339,7 @@ footer select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 0;
   gap: 1.5rem;
   padding: 2rem 6rem;
 }
