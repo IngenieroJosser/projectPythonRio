@@ -33,7 +33,7 @@
     .text {
         display: flex;
         padding-bottom: 1em;
-        margin-left: 30em;
+        margin-left: -1em;
 
         p {
             padding-bottom: 7px;
@@ -51,7 +51,7 @@
     font-size: 24px;
     line-height: 24px;
     border-radius: 4px;
-    margin-left: 19em;
+    // margin-left: 0em;
     margin-top: 2em;
 
     &:hover {

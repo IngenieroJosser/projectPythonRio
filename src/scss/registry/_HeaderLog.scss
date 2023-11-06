@@ -6,8 +6,11 @@
     height: 90px;
 
     a {
-        &svg {
-            padding-left: 1em;
+        svg {
+            padding-left: 2em;
+            width: 12em;
+            height: 5em;
+            object-fit: contain;
         }
     }
 

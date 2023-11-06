@@ -1,6 +1,7 @@
 import dispositivos from '../../assets/img/dispositivos.png'
 // import global from '../../assets/img/global.png'
 import Footer from './Footer'
+import HeaderLog from './HeaderLog'
 import { useNavigate } from "react-router-dom"
 
 import '../../scss/registry/_Content.scss'
@@ -14,6 +15,7 @@ const Content = () => {
 
     return (
         <>
+            <HeaderLog />
             <div className="content">
                 <img src={dispositivos} alt="dispositivos" />
                 <span>PASO <strong>1</strong> DE <strong>3</strong></span>
