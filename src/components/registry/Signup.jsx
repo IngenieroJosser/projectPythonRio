@@ -3,11 +3,18 @@ import '../../scss/registry/_Signup.scss';
 import ok from '../../assets/img/icon_Ok.png'
 import chulo from '../../assets/img/chulo.png'
 // import global 
-
+import { useNavigate } from "react-router-dom"
 import HeaderLog from './HeaderLog'
 import Footer from './Footer'
 
 const Signup = () => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/PaymentPicker')
+    }
+
     return (
         <>
         <HeaderLog />
@@ -36,7 +43,7 @@ const Signup = () => {
                 <p>Disfruta sin límites en todos tus dispositivos.</p>
             </div>
 
-            <a className='next' href="#">Siguiente</a>
+            <a className='next' onClick={handleClick} href="#">Siguiente</a>
         </div>
 
         <Footer />

@@ -1,6 +1,14 @@
 import Question from "./Question"
+import { useNavigate } from "react-router-dom"
 
 const QuestionsSection = () => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/content')
+    }
+
   return (
     <>
         <div className="questions-container">
@@ -37,7 +45,7 @@ const QuestionsSection = () => {
 
             <div className="banner-inputs-container">
                     <input type="email" name="" id="" placeholder='Email' />
-                    <button className='Primary-button extralarge'>Comenzar</button>
+                    <button className='Primary-button extralarge' onClick={handleClick}>Comenzar</button>
             </div>
         </div>
     </>

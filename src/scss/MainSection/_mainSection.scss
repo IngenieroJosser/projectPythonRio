@@ -4,6 +4,7 @@
     background-color: transparent;
     width: 100%;
     display: flex;
+    margin-bottom: 8rem;
 }
 
 .header-content {
@@ -19,6 +20,7 @@
     }
     @include rwd(l) {
         justify-content: space-between;
+        padding: 1.6rem 4rem;
     }
 }
 
@@ -38,6 +40,9 @@
     justify-content: center;
     border-radius: .6em;
     padding: .5rem 1.5rem;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .lenguaje-selector {
@@ -117,10 +122,11 @@
     align-items: center;
     flex-direction: column;
     @include rwd(l) {
+        padding: 0.1rem 10rem;
         flex-direction: row;
     }
     & input {
-        width: 50%;
+        width: 60%;
         height: 3rem;
         border-radius: .3rem;
         padding: 0 1rem;
