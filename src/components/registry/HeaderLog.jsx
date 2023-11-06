@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../../scss/registry/_HeaderLog.scss'
 
 const HeaderLog = () => {

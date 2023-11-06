@@ -1,5 +1,4 @@
-import React from 'react'
-import global from '../../assets/img/global.png'
+// import global from '../../assets/img/global.png'
 import '../../scss/registry/_Footer.scss'
 
 const Footer = () => {
