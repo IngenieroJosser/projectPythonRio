@@ -235,6 +235,7 @@ footer select {
   background-color: transparent;
   width: 100%;
   display: flex;
+  margin-bottom: 8rem;
 }
 
 .header-content {
@@ -252,6 +253,7 @@ footer select {
 @media screen and (min-width: 960px) {
   .header-content {
     justify-content: space-between;
+    padding: 1.6rem 4rem;
   }
 }
 
@@ -274,6 +276,9 @@ footer select {
   justify-content: center;
   border-radius: 0.6em;
   padding: 0.5rem 1.5rem;
+}
+.Primary-button:hover {
+  cursor: pointer;
 }
 
 .lenguaje-selector {
@@ -357,11 +362,12 @@ footer select {
 }
 @media screen and (min-width: 960px) {
   .banner-inputs-container {
+    padding: 0.1rem 10rem;
     flex-direction: row;
   }
 }
 .banner-inputs-container input {
-  width: 50%;
+  width: 60%;
   height: 3rem;
   border-radius: 0.3rem;
   padding: 0 1rem;
