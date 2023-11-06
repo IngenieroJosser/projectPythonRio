@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../scss/registry/_PaymentPicker.scss'
 
 import candado from '../../assets/img/candado.png'

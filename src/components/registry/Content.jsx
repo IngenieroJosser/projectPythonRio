@@ -1,4 +1,3 @@
-import React from 'react'
 import dispositivos from '../../assets/img/dispositivos.png'
 // import global from '../../assets/img/global.png'
 import Footer from './Footer'

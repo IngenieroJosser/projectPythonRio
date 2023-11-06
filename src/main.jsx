@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom/client'
 // import MainSection from './components/mainSection/MainSection';
 // import UserProfile from './components/Account/UserProfile';
 
-import './scss/index.scss';
+import './css/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
