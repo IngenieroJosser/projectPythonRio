@@ -1,4 +1,5 @@
 @import '../config/config';
+@import '../mixins/responsive';
 
 section {
     background-color: $backgroun-User;
@@ -7,6 +8,7 @@ section {
     height: 100vh;
 
     .list-Profile {
+        background-color: $backgroun-User;
         width: 100%; /* Ancho deseado para el div */
         text-align: center; /* Alinea el contenido del div al centro */
         padding: 3em 0px; /* Espaciado interior opcional */ 
@@ -21,9 +23,15 @@ section {
 
     .Accounts {
         display: flex;
-        gap: 1.7em;
-        margin-left: 16em;
+        gap: 6rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
         margin-top: 2em;
+        @include rwd(l) {
+            flex-direction: row; 
+            gap: 1.7em;
+        }
 
         .user {
             cursor: pointer;
@@ -77,16 +85,22 @@ section {
     }
 
     .Admin-Perfile {
-        position: absolute;
         border: 1px solid $text-Account;
         padding: 7px 21px;
         color: $text-Account;
-        margin-left: 35.5em;
-        margin-top: 4.1em;
 
         &:hover {
             border: 1px solid #fff;
             color: #fff;
         }
     }
+}
+
+.admin-profile-container {
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroun-User;
 }

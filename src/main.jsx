@@ -7,6 +7,7 @@ import Signup from './components/registry/Signup';
 import PaymentPicker from './components/registry/PaymentPicker';
 import MainSection from './components/mainSection/MainSection';
 import UserProfile from './components/Account/UserProfile';
+import MovieSection from './components/Movies/MovieSection';
 
 import './css/index.css';
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/PaymentPicker",
     element: <PaymentPicker />,
+  },
+  {
+    path: "/Movies",
+    element: <MovieSection />,
   },
 ]);
 

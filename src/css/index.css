@@ -557,6 +557,7 @@ section {
   height: 100vh;
 }
 section .list-Profile {
+  background-color: #141414;
   width: 100%; /* Ancho deseado para el div */
   text-align: center; /* Alinea el contenido del div al centro */
   padding: 3em 0px; /* Espaciado interior opcional */
@@ -569,9 +570,17 @@ section .list-Profile h1 {
 }
 section .Accounts {
   display: flex;
-  gap: 1.7em;
-  margin-left: 16em;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 2em;
+}
+@media screen and (min-width: 960px) {
+  section .Accounts {
+    flex-direction: row;
+    gap: 1.7em;
+  }
 }
 section .Accounts .user {
   cursor: pointer;
@@ -615,16 +624,22 @@ section .Accounts .dev {
   cursor: pointer;
 }
 section .Admin-Perfile {
-  position: absolute;
   border: 1px solid #515151;
   padding: 7px 21px;
   color: #515151;
-  margin-left: 35.5em;
-  margin-top: 4.1em;
 }
 section .Admin-Perfile:hover {
   border: 1px solid #fff;
   color: #fff;
+}
+
+.admin-profile-container {
+  padding-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
 }
 
 /*# sourceMappingURL=index.css.map */
