@@ -130,8 +130,11 @@
   border-bottom: 1px solid #E6E6E6;
   height: 90px;
 }
-.log_in asvg {
-  padding-left: 1em;
+.log_in a svg {
+  padding-left: 2em;
+  width: 12em;
+  height: 5em;
+  object-fit: contain;
 }
 .log_in .start {
   padding-left: 50em;
@@ -207,7 +210,7 @@ footer select {
 .banner-content .text {
   display: flex;
   padding-bottom: 1em;
-  margin-left: 30em;
+  margin-left: -1em;
 }
 .banner-content .text p {
   padding-bottom: 7px;
@@ -223,7 +226,6 @@ footer select {
   font-size: 24px;
   line-height: 24px;
   border-radius: 4px;
-  margin-left: 19em;
   margin-top: 2em;
 }
 .next:hover {

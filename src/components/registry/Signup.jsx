@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../scss/registry/_Signup.scss';
 import ok from '../../assets/img/icon_Ok.png'
 import chulo from '../../assets/img/chulo.png'
