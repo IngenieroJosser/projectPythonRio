@@ -670,4 +670,77 @@ section .Admin-Perfile:hover {
   background-color: #141414;
 }
 
+.Movie-header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.242);
+  background-color: rgba(0, 0, 0, 0.242);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 3.5rem;
+  transition: background-color 0.7s;
+}
+
+.backgroud-change {
+  background-color: rgb(20, 20, 20);
+}
+
+.header-right-section {
+  display: flex;
+  gap: 3rem;
+}
+.header-right-section .logo {
+  width: 6rem;
+  color: red;
+  fill: red;
+}
+
+.header-left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.header-left-section .user-pic {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  cursor: pointer;
+}
+.header-left-section .user-pic > img {
+  border-radius: 0.45rem;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.header-left-section .notifications, .header-left-section .kids, .header-left-section .search {
+  cursor: pointer;
+}
+
+.Movie-Navigation {
+  display: flex;
+}
+.Movie-Navigation .Navigation-List {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+.Movie-Navigation .Navigation-List > .Navitation-List-item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.Navitation-List-item {
+  color: rgba(247, 251, 255, 0.925);
+  transition: color 0.3s;
+}
+.Navitation-List-item:hover {
+  cursor: pointer;
+  color: rgba(204, 204, 204, 0.8);
+}
+
 /*# sourceMappingURL=index.css.map */
