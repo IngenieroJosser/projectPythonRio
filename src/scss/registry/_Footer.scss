@@ -1,20 +1,19 @@
 @import '../config/config';
+@import '../mixins/responsive';
 
 footer {
     background-color: $footer-suscribe;
-    width: 199.3vh;
-    height: 52vh;
-
+    width: 100%;
+    padding: 2.5rem 4.2rem;
     .preguntas {
-        padding-left: 6em;
-        font-size: 13px;
+        font-size: 1.1rem;
     }
 
     .preguntas, .more {
         color: $footer-text-suscribe;
 
         .more {
-            transition: 5s all ease-in;
+            transition: .5s all ease-in;
 
             &:hover {
                 text-decoration: underline;
@@ -22,11 +21,18 @@ footer {
         }
     }
 
-    .flex, .flex2 {
+    .flex {
         display: flex;
-        gap: 1em;
-        margin-top: 1em;
-        margin-left: 1.7em;
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        @include rwd(l) {
+            gap: 8rem;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
 
         .more {
             font-size: 13px;
@@ -34,6 +40,10 @@ footer {
     }
 
     select {
+        display: none;
+        @include rwd(l) {
+            display: block;
+        }
         padding: 12px 30px;
         font-size: 20px;
         margin-left: 6.5em;

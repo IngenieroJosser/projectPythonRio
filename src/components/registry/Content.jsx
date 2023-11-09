@@ -15,7 +15,7 @@ const Content = () => {
 
     return (
         <>
-            <HeaderLog />
+            <HeaderLog textButton="Iniciar Sesión"/>
             <div className="content">
                 <img src={dispositivos} alt="dispositivos" />
                 <span>PASO <strong>1</strong> DE <strong>3</strong></span>

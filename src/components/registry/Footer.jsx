@@ -14,7 +14,7 @@ const Footer = () => {
                         <a className='more'>Términos de uso</a>
                     </div>
 
-                    <div className="flex2">
+                    <div className="flex">
                         <a className='more'>Privacidad</a>
                         <a className='more'>Preferencias de cookies</a>
                         <a className='more'>Información corporativa</a>

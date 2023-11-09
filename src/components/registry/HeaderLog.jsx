@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 import '../../scss/registry/_HeaderLog.scss'
 // import Netflix from '../../assets/img/netflix.png'
 
-const HeaderLog = () => {
+const HeaderLog = ({textButton}) => {
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/')
@@ -15,7 +15,7 @@ const HeaderLog = () => {
                     {/* <img src={Netflix} alt="" /> */}
                 </a>
 
-                <a className='start' href="#">Iniciar sesión</a>
+                <a className='start' href="#">{textButton}</a>
             </header>
         </>
     )

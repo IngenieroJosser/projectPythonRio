@@ -2,9 +2,11 @@
 
 .log_in {
     display: flex;
+    width: 100%;
     border-bottom: 1px solid #E6E6E6;
     height: 90px;
-
+    justify-content: space-between;
+    align-items: center;
     a {
         svg {
             padding-left: 2em;
@@ -15,11 +17,12 @@
     }
 
     .start {
-        padding-left: 50em;
+        padding: 0;
         font-weight: bold;
         color: $color-text1;
         font-size: 19px;
         font-weight: bold;
         line-height: 90px;
+        margin-right: 3rem;
     }
 }

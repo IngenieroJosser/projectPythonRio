@@ -1,23 +1,20 @@
 @import '../config/config';
+@import '../mixins/responsive';
 
 .banner-Sigup {
-    width: 70%; /* Ancho deseado para el div */
-    text-align: center; /* Alinea el contenido del div al centro */
-    padding: 3em 0px; /* Espaciado interior opcional */
-
+    width: 100%;
+    text-align: center; 
+    padding: 3em 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     img {
         margin-top: 3.3em;
-        margin-left: 22.6em;
         padding-bottom: 1.2em;
     }
-    
     span {
         font-size: 13px;
-        margin-left: -6.4em;
-    }
-
-    h1 {
-        margin-left: 10.7em;
     }
 }
 
@@ -45,13 +42,15 @@
 }
 
 .next {
-    padding: .6em 5.3em;
+    padding: .5rem 2.3rem;
+    @include rwd(l) {
+        padding: .6rem 5.3rem;
+    }
     background-color: $color-button;
     color: $color-text2;
     font-size: 24px;
     line-height: 24px;
     border-radius: 4px;
-    // margin-left: 0em;
     margin-top: 2em;
 
     &:hover {

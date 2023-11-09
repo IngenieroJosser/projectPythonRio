@@ -16,7 +16,7 @@ const Signup = () => {
 
     return (
         <>
-        <HeaderLog />
+        <HeaderLog textButton="Iniciar Sesión" />
 
         <div className="banner-Sigup">
             <img src={ok} alt="icon_Ok" />
