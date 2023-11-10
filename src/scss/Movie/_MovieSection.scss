@@ -77,5 +77,52 @@
     }
 }
 
-
 // Final Header----------------------------
+
+
+
+
+// Footer---------------------------------
+
+.Main-Footer {
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    color: #737373;
+    gap: 1rem;
+    font-size: small;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-item-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-bottom: 1rem;
+    &>a {
+        color: #737373;
+    }
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+    & >svg {
+        color: #FFFF;
+        cursor: pointer;
+    }
+}
+
+.footer-code-services {
+    border: 1px solid #737373;
+    padding: 0.2rem .7rem;
+}
+
+// Final Footer---------------------------
