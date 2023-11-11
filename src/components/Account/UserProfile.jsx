@@ -5,8 +5,9 @@ import AccountLucas from '../../assets/img/AccountLucas.jpg'
 import devAccount from '../../assets/img/devAccount.png'
 import kidsAccount from '../../assets/img/kids.jpg'
 import wolfAccount from '../../assets/img/wolfAccount.jpg'
-// import {loadData} from '../hooks/Fetch'
+import { useEffect } from 'react'
 
+import {loadData} from '../hooks/Fetch'
 const UserProfile = () => {
 
     const navigate = useNavigate();
@@ -14,10 +15,11 @@ const UserProfile = () => {
         navigate('/Movies')
     }
 
-    // const peticion = () =>{
-    //     loadData('http://127.0.0.1:8000/users')
-    //     .then(data => console.log(data))
-    // }
+    useEffect(()=>{
+        loadData('http://127.0.0.1:8000/movies')
+        .then(data => console.log(data))
+    },[])
+
 
     const Data = [
         {
