@@ -1,61 +1,13 @@
-import MovieHeader from "./MovieHeader"
-import MovieFooter from "./MovieFooter"
+import MovieHeader from "./components/MovieHeader"
+import MovieFooter from "./components/StaticCover"
+import StaticCover from "./components/MovieFooter"
 
 const MovieSection = () => {
   return (
     <>
     <MovieHeader/>
-    <h1>ESTAS LOGUEADO! :D</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque, illo magnam aut delectus provident sapiente earum perspiciatis sed placeat repellendus iure. Voluptate facilis dolor placeat perferendis enim earum ut.</p>
     <MovieFooter/>
+    <StaticCover />
     </>
   )
 }
