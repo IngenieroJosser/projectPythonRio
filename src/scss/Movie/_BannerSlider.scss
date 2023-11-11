@@ -2,28 +2,40 @@
 
 .FilmFrame {
     background-color: $backgroundMovies;
+    padding-top: 1.5em;
 
     .slider {
         position: relative;
         overflow: hidden;
     }
 
-    h3 {
+    .textCover {
         color: $color-text2;
         font-size: 18px;
         font-weight: 500;
         line-height: 16px;
+        padding: 1.2em 1em;
     }
 
     .slider {
         display: flex;
         gap: 7px;
+        margin-left: 1.3em;
+        // z-index: -1;
 
         img {
             width: 16em;
             height: 9.8em;
             object-fit: cover;
-            border-radius: 5px;
+            border-radius: 4px;
+            transition: 1.1s ease-in all;
+
+            &:hover {
+                transform: scale(1.20);
+                z-index: 1;
+                object-fit: contain;
+                border-radius: 5px;
+            }
         }
     }
     
