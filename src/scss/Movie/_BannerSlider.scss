@@ -14,13 +14,13 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 16px;
-        padding: 1.2em 1em;
+        padding: 1.2em 3.7em;
     }
 
     .slider {
         display: flex;
         gap: 7px;
-        margin-left: 1.3em;
+        margin-left: 4em;
         // z-index: -1;
 
         img {
@@ -36,6 +36,37 @@
                 object-fit: contain;
                 border-radius: 5px;
             }
+        }
+
+        .number {
+            display: flex;
+            gap: 1px;
+            margin-left: -6em;
+            margin-top: 1em;
+
+            img {
+                margin-top: -1em;
+            }
+        }
+
+        .number2 {
+            margin-left: -6em;
+        }
+
+        .number3 {
+            margin-left: -7em;
+        }
+
+        .number4 {
+            margin-left: -5.7em;
+        }
+        
+        .populares {
+            width: 10em;
+            height: 15em;
+            object-fit: contain;
+            padding-top: .8em;
+            margin-left: -1.6em;
         }
     }
     
