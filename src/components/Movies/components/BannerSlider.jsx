@@ -1,5 +1,6 @@
 import '../../../scss/Movie/_BannerSlider.scss';
-
+import {loadData} from '../../hooks/Fetch'
+import React, { useState, useEffect } from 'react';
 
 import movie1 from '../../../assets/img/movies/movie1.jpg';
 import movie2 from '../../../assets/img/movies/movie2.jpg';
@@ -9,6 +10,17 @@ import movie5 from '../../../assets/img/movies/movie5.jpg';
 import movie6 from '../../../assets/img/movies/movie6.jpg';
 
 const BannerSlider = () => {
+
+    const [movies, setMovies] = useState([])
+
+    useEffect(()=>{
+        loadData('http://127.0.0.1:8000/movies')
+        .then(data => {
+            setMovies(data);
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    },[])
+
     const bannerMovies1 = [
         { 'image': movie1, 'alt': 'Pelicula 1' },
         { 'image': movie2, 'alt': 'Película 2' },
@@ -39,6 +51,24 @@ const BannerSlider = () => {
 
     return (
     <>
+
+        <div className="FilmFrame">
+            <h3 className='textCover'>Datos Llamado desde el backend</h3>
+            <div className="slider">
+                { Array.isArray(movies) ? (
+                    movies.map((movie) => (
+                        <img
+                        key={movie.id}
+                        src={movie.portada}
+                        alt="Imagen de Pelicula"
+                        />
+                    )))
+                    : (<p>No hay datos de películas disponibles.</p>)
+            }
+            </div>
+        </div>
+
+    
         <div className="FilmFrame">
             <h3 className='textCover'>Nuestra selección para Los Hackers</h3>
             <div className="slider">

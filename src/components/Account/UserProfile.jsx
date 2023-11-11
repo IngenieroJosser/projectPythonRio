@@ -5,21 +5,13 @@ import AccountLucas from '../../assets/img/AccountLucas.jpg'
 import devAccount from '../../assets/img/devAccount.png'
 import kidsAccount from '../../assets/img/kids.jpg'
 import wolfAccount from '../../assets/img/wolfAccount.jpg'
-import { useEffect } from 'react'
 
-import {loadData} from '../hooks/Fetch'
 const UserProfile = () => {
 
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/Movies')
     }
-
-    useEffect(()=>{
-        loadData('http://127.0.0.1:8000/movies')
-        .then(data => console.log(data))
-    },[])
-
 
     const Data = [
         {
