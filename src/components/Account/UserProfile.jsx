@@ -18,7 +18,7 @@ const UserProfile = () => {
     //     loadData('http://127.0.0.1:8000/users')
     //     .then(data => console.log(data))
     // }
- 
+
     const Data = [
         {
             'id': 1,

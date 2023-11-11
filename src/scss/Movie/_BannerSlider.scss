@@ -1,0 +1,37 @@
+@import '../config/config';
+
+.FilmFrame {
+    background-color: $backgroundMovies;
+
+    .slider {
+        position: relative;
+        overflow: hidden;
+    }
+
+    h3 {
+        color: $color-text2;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .slider {
+        display: flex;
+        gap: 7px;
+
+        img {
+            width: 16em;
+            height: 9.8em;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    }
+    
+    // .active {
+    //     display: block;
+    // }
+    
+    // .inactive {
+    //     display: none;
+    // }
+}
