@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     element: <Signup />,
   },
   {
-    path: "/PaymentPicker",
+    path: "/PaymentPicker", 
     element: <PaymentPicker />,
   },
   {
